@@ -21,12 +21,11 @@ import java.sql.Statement;
 
 public class paramedLogin extends AppCompatActivity {
 
-   String conName = "n01263842";
-   String conPass = "Akeem123";
    private static final String DEFAULT_DRIVER = "oracle.jdbc.driver.OracleDriver";
    private static final String DEFAULT_URL = "jdbc:oracle:thin:@apollo.humber.ca:1521:msit";
    private static final String DEFAULT_USERNAME = "n01263842";
-   private static final String DEFAULT_PASSWORD = "Akeem123";
+
+
 
    private Connection connection;
 
