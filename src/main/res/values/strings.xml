@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AAC-Tech</string>
+    <string name="homescreenB1">paramedic</string>
+    <string name="homescreenB2">client</string>
+    <string name="patientB1">Call Now!</string>
+    <string name="homescreenI1"></string>
+    <string name="homescreenI2"></string>
+    <string name="patientI1"></string>
+    <string name="parmadicscreenT1">Waiting for a call!</string>
+    <string name="paramedSignIn">Paramedic Sign in:</string>
+    <string name="username">Enter username</string>
+    <string name="password">Enter password</string>
+    <string name="signin">sign in</string>
+
+
+</resources>
