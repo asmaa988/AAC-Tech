@@ -24,7 +24,7 @@ public class paramedLogin extends AppCompatActivity {
    private static final String DEFAULT_DRIVER = "oracle.jdbc.driver.OracleDriver";
    private static final String DEFAULT_URL = "jdbc:oracle:thin:@apollo.humber.ca:1521:msit";
    private static final String DEFAULT_USERNAME = "n01263842";
-
+   private static final String TESTING_STUFF = "nothing";
 
 
    private Connection connection;
