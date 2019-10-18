@@ -11,6 +11,7 @@
     <string name="username">Enter username</string>
     <string name="password">Enter password</string>
     <string name="signin">sign in</string>
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>

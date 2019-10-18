@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         paramedic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,paramedLogin.class);
+                Intent intent = new Intent(MainActivity.this,MapsActivity.class);
                 startActivity(intent);
             }
         });
