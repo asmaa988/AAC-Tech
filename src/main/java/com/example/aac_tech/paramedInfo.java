@@ -54,6 +54,20 @@ public class paramedInfo {
         this.hospID = hospID;
     }
 
+    public void setFullName(String fullName){
+        this.fullName = fullName;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+
+
     public String getFullName(){
         return this.fullName;
     }
