@@ -17,11 +17,14 @@ public class MainActivity extends AppCompatActivity {
         Button paramedic = (Button)findViewById(R.id.homescreenB1);
         Button client = (Button)findViewById(R.id.homescreenB2);
 
+
         paramedic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,MapsActivity.class);
+                Intent intent = new Intent(MainActivity.this,paramedLogin.class);
                 startActivity(intent);
+
+
             }
         });
 
