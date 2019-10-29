@@ -1,3 +1,7 @@
+/*
+ * Team-Name: AAC-Tech
+
+ */
 package com.example.aac_tech.ui.notifications;
 
 import androidx.lifecycle.LiveData;
@@ -10,7 +14,7 @@ public class NotificationsViewModel extends ViewModel {
 
     public NotificationsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is notifications fragment");
+        mText.setValue("Completed Emergency Scenarios");
     }
 
     public LiveData<String> getText() {
