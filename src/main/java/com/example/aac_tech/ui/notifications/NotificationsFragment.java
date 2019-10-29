@@ -1,3 +1,7 @@
+/*
+ * Team-Name: AAC-Tech
+
+ */
 package com.example.aac_tech.ui.notifications;
 
 import android.os.Bundle;
@@ -24,6 +28,7 @@ public class NotificationsFragment extends Fragment {
                 ViewModelProviders.of(this).get(NotificationsViewModel.class);
         View root = inflater.inflate(R.layout.fragment_notifications, container, false);
         final TextView textView = root.findViewById(R.id.text_notifications);
+
         notificationsViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
